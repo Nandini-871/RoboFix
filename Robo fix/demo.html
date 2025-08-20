@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>demo try</title>
+  <link rel="stylesheet" href="demo.css">
+</head>
+
+<body>
+  <header>
+    <h1>Robofix</h1>
+    <nav>
+      <a href="index.html" data-aos="fade-down" data-aos-duration="2500">Home</a>
+      <a href="#" data-aos="fade-down" data-aos-duration="3000">contact</a>
+    </nav>
+  </header>
+  <section ><div class ="selection">
+    <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+          data-aos-duration="1500" class="select-box" >
+    <label class="select">Select your language</label></div>
+    <select id="languages">
+      <option value="java script">java script</option>
+
+      <option value="python">python</option>
+
+      <option value="java">java</option>
+
+      <option value="c++">C++</option>
+    </select></div>
+     <div class="layer-blur"></div>
+    <div class="code-container">
+      <!-- input codes-->
+      <label id="code">
+        Enter the code:
+      </label>
+      <textarea id="tpye-code" name="code" placeholder="Type your code here..."></textarea>
+      <button id="fix-btn">Fix It</button>
+      <div id="output" style="margin-top: 20px; border: 1px solid #ccc; padding: 10px;">
+  Output will appear here...
+</div>
+
+
+    </div>
+  </section>
+
+<script src="demo.js"></script>
+
+</body>
+
+</html>

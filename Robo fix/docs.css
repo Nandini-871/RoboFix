@@ -1,0 +1,29 @@
+.docs-page {
+  padding: 40px;
+  background: #000;
+  color: #eee;
+  font-family: sans-serif;
+}
+
+.docs-page header, footer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.docs-page nav a {
+  margin: 0 10px;
+  color: violet;
+  text-decoration: none;
+}
+
+.docs-page h2 {
+  margin-top: 30px;
+  color: #c0aaff;
+}
+
+pre {
+  background: #111;
+  padding: 15px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
